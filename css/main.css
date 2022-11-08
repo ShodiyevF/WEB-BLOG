@@ -1,0 +1,245 @@
+/* @font-face {
+	font-family: "Futura PT";
+	src: url("../fonts/subset-FuturaPT-Book.woff2") format("woff2"),
+	url("../fonts/subset-FuturaPT-Book.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/subset-FuturaPT-Bold.woff2") format("woff2"),
+	url("../fonts/subset-FuturaPT-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: bold;
+	font-display: swap;
+} */
+
+/*TAYYOR SHABLONLAR*/
+
+.btn{
+	display: inline-block;
+	width: auto;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 3px;
+	color: white;
+	transition: all 1s ease;
+}
+
+.btn:hover{
+	color: black;
+	font-weight: bold;
+	background: #00b09b;
+	background: -webkit-linear-gradient(to left, #96c93d, #00b09b);
+	background: linear-gradient(to left, #96c93d, #00b09b);
+	transition: all 1s ease;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*TUGADI*/
+
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	color: #222;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'Raleway', sans-serif;
+	background-color: #090E16;
+	background-image: url("../img/applebg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;	
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.container{
+	max-width: 1320px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* HEADER */
+
+.header_container{
+	padding-top: 38px;
+}
+
+.site_header_wrapper{
+	background: rgba(123, 74, 226, 0.05);
+	border-radius: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 12px 23px 14px 24px;
+	
+}
+
+.site_header_logo_link{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.site_header_logo_img{
+	width: 200px;
+}
+
+.site_header_nav_list{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style-type: none;
+}
+
+.site_header_nav_item{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style-type: none;
+	margin-right: 16px;
+}
+
+.site_header_nav_link{
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.site_header_nav_link:active{
+	font-size: 18px;
+	color: rgba(123, 74, 226, 0.5);
+}
+
+/* HERO */
+
+.site_hero{
+	background-image: url('./../img/main/AvatarAndIcons.svg');
+	background-repeat: no-repeat;
+	background-position: calc(50% + 25px), center;
+	
+}
+
+.hero_container{
+	padding-top: 191px;
+	padding-bottom: 186px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero_hello_wrapper{
+	display: flex;
+	align-items: start;
+}
+
+.hero_hello{
+	width: auto;
+	margin: 0;
+	padding: 0;
+	color: #7B4AE2;
+	padding: 5px 10px;
+	background-color: rgba(123, 74, 226, 10%);
+	border-radius: 16px;
+	font-weight: bold;
+	margin-bottom: 24px;
+	margin-right: auto;
+	
+}
+
+.hero_title{
+	width: 240px;
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 61px;
+	color: #FFFFFF;
+	margin-bottom: 16px;
+}
+
+.hero_job{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	color: rgba(255, 255, 255, 0.5);
+	margin-bottom: 25px;
+}
+
+.hero_links_img{
+	margin-right: 16px;
+}
+
+.hero_links_img_telegram{
+	width: 32px;
+	height: 32px;
+}
+
+.hero_right{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: end;
+}
+
+
+.hero_cvdownload{
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	color: rgba(123, 74, 226, 0.5);
+	
+}
+
+.hero_cvlink{
+	display: flex;
+	align-items: center;
+	padding: 14px 16px;
+	border: 1px solid rgba(123, 74, 226, 0.5);
+	border-radius: 16px;
+	font-weight: 600;
+	font-size: 16px;
+	color: rgba(123, 74, 226, 0.5);
+}
+
+.hero_cvlinkimg{
+	width: 24px;
+	height: 24px;
+	margin-right: 8px;
+}
