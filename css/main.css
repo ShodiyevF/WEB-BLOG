@@ -93,6 +93,23 @@ img {
 	padding-right: 20px;
 }
 
+.btn_wrapper{
+	display: flex;
+	align-items: start;
+}	
+
+.btn{
+	width: auto;
+	margin: 0;
+	padding: 0;
+	color: #7B4AE2;
+	padding: 5px 10px;
+	background-color: rgba(123, 74, 226, 10%);
+	border-radius: 16px;
+	font-weight: bold;
+	margin-right: auto;
+}
+
 /* HEADER */
 
 .header_container{
@@ -150,7 +167,7 @@ img {
 	background-image: url('./../img/main/AvatarAndIcons.svg');
 	background-repeat: no-repeat;
 	background-position: calc(50% + 25px), center;
-	
+	border-bottom: 1px solid #7B4AE233;
 }
 
 .hero_container{
@@ -176,7 +193,6 @@ img {
 	font-weight: bold;
 	margin-bottom: 24px;
 	margin-right: auto;
-	
 }
 
 .hero_title{
@@ -242,4 +258,69 @@ img {
 	width: 24px;
 	height: 24px;
 	margin-right: 8px;
+}
+
+/* ABOUT ME */
+
+.aboutme{
+	padding-top: 141px;
+}
+
+.aboutme_container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.about_img{
+	width: 460px;
+	/* background-color: white; */
+	border-radius: 50%;
+}
+
+.about_title_wrapper{
+	display: flex;
+}
+
+.about_title{
+	width: auto;
+	margin: 0;
+	padding: 0;
+	color: #7B4AE2;
+	padding: 5px 10px;
+	background-color: rgba(123, 74, 226, 10%);
+	border-radius: 16px;
+	font-weight: bold;
+	margin-bottom: 24px;
+	margin-right: auto;
+}
+
+.about_fullname{
+	width: 500px;
+	margin: 0;
+	padding: 0;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 56px;
+	color: #FFFFFF;
+	margin-bottom: 24px;
+}
+
+.about_p{
+	color: white;
+	margin: 0;
+	font-size: 14px;
+	line-height: 25px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.about_callme{
+	margin-bottom: 32px;
+}
+
+.about_full_wrapper{
+	margin-bottom: 32px;
+}
+
+.about_full{
+	margin-bottom: 6px;
 }
