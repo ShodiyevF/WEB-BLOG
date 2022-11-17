@@ -15,7 +15,7 @@
 </head>
 <body>
     
-    <header class="site_header">
+    <header id="up" class="site_header">
         <section class="site_header_section">
             <div class="container header_container">
                 <div class="site_header_wrapper">
@@ -25,16 +25,16 @@
                     <nav class="site_header_nav">
                         <ul class="site_header_nav_list">
                             <li class="site_header_nav_item">
-                                <a class="site_header_nav_link" href="#">Menu</a>
+                                <a class="site_header_nav_link" href="#aboutme">Man haqimda</a>
                             </li>
                             <li class="site_header_nav_item">
-                                <a class="site_header_nav_link" href="#">Portfolio</a>
+                                <a class="site_header_nav_link" href="#portfolio">Portfolio</a>
                             </li>
                             <li class="site_header_nav_item">
-                                <a class="site_header_nav_link" href="#">Skills</a>
+                                <a class="site_header_nav_link" href="#skills">Ko'nikmalar</a>
                             </li>
                             <li class="site_header_nav_item">
-                                <a class="site_header_nav_link" href="#">Contact</a>
+                                <a class="site_header_nav_link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -72,7 +72,7 @@
     </header>
     
     <main class="site_main">
-        <section class="aboutme">
+        <section id="aboutme" class="aboutme">
             <div class="container aboutme_container">
                 <img class="about_img" src="img/main/myimg.PNG">
                 <div class="about_texts">
@@ -90,7 +90,7 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio">
+        <section id="portfolio" class="portfolio">
             <div class="container">
                 <div class="portfolio_top_wrapper">
                     <div class="btn_wrapper">
@@ -184,7 +184,7 @@
                 </ul>
             </div>
         </section>
-        <section class="skills">
+        <section id="skills" class="skills">
             <div class="container skills_container">
                 <div class="skills_about about_title_wrapper">
                     <p class="about_title btn">👨🏻‍💻 Ko'nikmalar · Tajribalar</p>
@@ -255,7 +255,7 @@
                 </div>
             </div>
         </section>
-        <section class="career">
+        <section id="career" class="career">
             <div class="container career_container">
                 <div class="career_about about_title_wrapper">
                     <p class="about_title btn">💼 Karyera</p>
@@ -309,7 +309,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section id="contact" class="contact">
             <div class="container contact_wrapper">
                 <div class="contact_about about_title_wrapper">
                     <p class="contact_btn btn">📬 Kontaktlar</p>
@@ -320,13 +320,25 @@
                     <a class="hero_cvlink contact_phone" target="_blank" href="tel:998912007435"><img class="hero_cvlinkimg contact_telegram_img" src="img/main/phone-solid.svg" alt="">+998912007435</a>
                     <a class="hero_cvlink contact_email" target="_blank" href="mailto: fayzullohwork@gmail.com"><img class="hero_cvlinkimg" src="img/main/envelope-regular.svg" alt="">fayzullohwork@gmail.com</a>
                 </div>
-                <button class="up">Yuqoriga qaytish <img class="upimg" src="img/main/up.svg" alt=""></button>
+                <a href="#up" class="up">Yuqoriga qaytish <img class="upimg" src="img/main/up.svg" alt=""></a>
             </div>
         </section>
     </main>
     
     <footer class="site_footer">
-        
+        <div class="container footer_container">
+            <div class="footer-hero hero_links">
+                <a class="hero_link" href="https://t.me/shodiyevf" target="_blank">
+                    <img class="hero_links_img hero_links_img_telegram" src="img/main/telegram.svg" alt="">
+                </a>
+                <a class="hero_links" href="https://t.me/shodiyevf" target="_blank">
+                    <img class="hero_links_img" src="img/main/linked.svg" alt="">
+                </a>
+                <a class="hero_links" href="https://github.com/ShodiyevF" target="_blank">
+                    <img class="hero_links_img" src="img/main/github.svg" alt="">
+                </a>
+            </div>
+        </div>
     </footer>
     
 </body>
