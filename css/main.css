@@ -25,16 +25,8 @@
 	font-weight: bold;
 	border-radius: 3px;
 	color: white;
-	transition: all 1s ease;
-}
-
-.btn:hover{
-	color: black;
-	font-weight: bold;
-	background: #00b09b;
-	background: -webkit-linear-gradient(to left, #96c93d, #00b09b);
-	background: linear-gradient(to left, #96c93d, #00b09b);
-	transition: all 1s ease;
+	transition: all 0.5s ease;
+	font-size: 22px;
 }
 
 a{
@@ -159,6 +151,13 @@ h1,h2,h3,h4,h5,h6,p{
 .site_header_nav_link{
 	font-size: 18px;
 	color: rgba(255, 255, 255, 0.5);
+	transition: color 0.3s ease;
+}
+
+.site_header_nav_link:hover{
+	font-size: 18px;
+	color: rgba(123, 74, 226);
+	transition: color 0.3s ease;
 }
 
 .site_header_nav_link:active{
@@ -224,6 +223,8 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .hero_links_img{
+	width: 32px;
+	height: 32px;
 	margin-right: 16px;
 }
 
@@ -491,9 +492,20 @@ h1,h2,h3,h4,h5,h6,p{
 .skills_top_img{
 	width: 64px;
 	height: 64px;
+	transition: all 0.5s ease;
+}
+
+.skills_top_img:hover{
+	width: 70px;
+	height: 70px;
+	transition: all 0.5s ease;
 }
 
 /* CAREER */
+
+.career{
+	margin-bottom: 50px;
+}
 
 .career_container{
 	display: flex;
@@ -591,4 +603,60 @@ h1,h2,h3,h4,h5,h6,p{
 	font-size: 18px;
 	text-align: right;
 	color: #7B4AE2;
+}
+
+/* CONTANC */
+
+.contact{
+	padding-bottom: 200px;
+}
+
+.contact_wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.contact_about{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 24px;
+}
+
+.contact_title{
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 70px;
+}
+
+.link_wrapper{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 70px;
+}
+
+.contact_telegram{
+	margin-right: 40px;
+}
+
+.contact_phone{
+	margin-right: 40px;
+}
+
+.up{
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+	color: rgba(123, 74, 226, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.upimg{
+	margin-left: 8px;
 }
